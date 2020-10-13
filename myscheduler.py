@@ -9,6 +9,6 @@ from whatsapp_bot import automation_function
 sched = BlockingScheduler()
 
 # Schedule job_function to be called every two hours
-sched.add_job(automation_function, 'interval', seconds=1 )
+sched.add_job(automation_function, 'interval', seconds=5 )
 
 sched.start()
