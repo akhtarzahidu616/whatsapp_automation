@@ -1,1 +1,1 @@
-clock: python myscheduler.py
+web: python myscheduler.py
