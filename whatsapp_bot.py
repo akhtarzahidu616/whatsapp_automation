@@ -9,6 +9,6 @@ def automation_function():
         from_='whatsapp:+14155238886',
         body='This is my Whatsapp BOT for sending automated messages',
         #body='hey u ... whats up',
-        to='whatsapp:+917008453007'
+        to='whatsapp:+917381788563'
     )
     print(message.sid)
