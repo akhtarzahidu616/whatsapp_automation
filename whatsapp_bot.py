@@ -7,8 +7,8 @@ client = Client(account_sid, auth_token)
 def automation_function():
     message = client.messages.create(
         from_='whatsapp:+14155238886',
-        body='This is my Whatsapp BOT for sending automated messages',
+        body='o kaleen bhai ....',
         #body='hey u ... whats up',
-        to='whatsapp:+917381788563'
+        to='whatsapp:+919014981664'
     )
     print(message.sid)
